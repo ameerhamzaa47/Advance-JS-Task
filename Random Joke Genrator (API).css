@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkgoldenrod;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#border{
+    border: 2px solid black;
+    width: 35%;
+    height: 450px;
+    margin-left: 33%;
+    margin-top: 5%;
+    background-color: black;
+}
+@media screen and (max-width: 600px) {
+    #border{
+        border: 2px solid black;
+        width: 75%;
+        height: 450px;
+        margin-left: 15%;
+        margin-top: 8%;
+        background-color: black;
+    }
+}
+@media screen and (max-width: 900px) {
+    #border{
+        border: 2px solid black;
+        width: 75%;
+        height: 450px;
+        margin-left: 15%;
+        margin-top: 8%;
+        background-color: black;
+    }
+}
+#emoji{
+    background-color: yellow;
+    border-radius: 100px;
+    font-size: 150px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#joke{
+    margin-top: 10%;
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding: 1px;
+}
+#btn{
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: goldenrod;
+    color: black;
+    width: 35%;
+    height: 10%;
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0px 5px 15px 5px rgb(221, 229, 155);
+}
+#btn:hover{
+    opacity: 1;
+}
